@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background: rgb(10, 10, 10);
+}
+
+.pageTitle {
+    padding: 50px;
+}
+
+.pageTitle h1 {
+    text-align: center;
+    font-family: Audiowide;
+    font-size: 125px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(90deg, #6a00ff 0%, #ff0066 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+  }
+
+
+.pageTitle p {
+    text-align: center;
+    font-family: 'VT323';
+    font-size: 42px;
+    margin-top: -30px;
+    color: rgb(255, 255, 255);
+}
+
+.homepageText {
+    display: block;
+    background-color: rgb(20, 20, 20);
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.homepageText p {
+    font-family: "Quantico", serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.homepageText a {
+    color: rgb(0, 110, 255);
+    text-decoration: underline rgba(255, 255, 255, 0);
+    font-family: "Quantico", serif;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.homepageText a:hover {
+    text-decoration: underline;
+}
+
+.homepageText ul {
+    line-height: 25px;
+}

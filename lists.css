@@ -1,0 +1,45 @@
+body {
+    font-family: "Quantico", serif;
+    color: white;
+    background-color: rgb(10, 10, 10);
+}
+
+.container {
+    background-color: rgb(20, 20, 20);
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.container h2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.container a {
+    color: rgb(0, 110, 255);
+    text-decoration: underline rgba(255, 255, 255, 0);
+    font-family: "Quantico", serif;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container p {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Quantico", serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.container li {
+    line-height: 25px;
+}
